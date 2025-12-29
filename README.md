@@ -91,16 +91,17 @@ Total: 50 images with 80 individual annotations (approximate)
 
 ## Sample Annotations
 
-Sample annotation screenshots are available in the `Portfolio_Documentation/Annotated_samples/15_annotated_samples` directory and include:
+Sample annotation screenshots are available in the Sample annotation screenshots are available in the following directory [View annotated samples](Portfolio_Documentation/Annotated_samples/15_annotated_samples) directory and include:
 
-- Lobar pneumonia `Portfolio_Documentation/Annotated_samples/15_annotated_samples/lobar_pneumonia_example.png.jpeg`
-  *Segmentation of left and right lower lobe consolidation*
-  
-- Pneumothorax `Portfolio_Documentation/Annotated_samples/15_annotated_samples/pneumothorax_example.png.jpeg`
-  *Polyline outlining pleural line right lung apex*
-  
-- Pleural effusion – `Portfolio_Documentation/Annotated_samples/15_annotated_samples/pleural_effusion_example.png.jpeg`
-  *Segmentation of effusion left lower lobe*  
+### Lobar Pneumonia
+![Segmentation of left and right lower lobe consolidation](Portfolio_Documentation/Annotated_samples/15_annotated_samples/lobar_pneumonia_example.png.jpeg)
+
+### Pneumothorax
+![Polyline outlining pleural line right lung apex](Portfolio_Documentation/Annotated_samples/15_annotated_samples/pneumothorax_example.png.jpeg)
+
+### Pleural Effusion
+![Segmentation of effusion left lower lobe](Portfolio_Documentation/Annotated_samples/15_annotated_samples/pleural_effusion_example.png.jpeg)
+
 
 *(Full annotated datasets available upon request due to size limitations.)*
 
@@ -157,15 +158,25 @@ Given additional time and resources, this project could be expanded by:
 ## Repository Structure
 
 - Portfolio documentation folder
-  - README file  
-  - Annotation guidelines and methodology  
-  - Workflow screenshots demonstrating the annotation process  
+  - Annotated_samples  
+  - My_Guidelines
+  - README
+  - Workflow screenshots
+  - Edge_cases_and_quality_assurance
 
-- Pathology-specific folders (5)
-  - One folder per condition  
-  - Annotated X-ray images  
-  - COCO-format JSON annotation files  
-  - Label Studio configuration files  
+- Project_01_lobar_pneumonia
+  - annotations 
+  - configuration.xml 
+  - images  
+  - Readme
+
+- Project_04_pneumothorax
+  - annotations 
+  - configuration.xml 
+  - images  
+  - Readme
+
+- README.md (this section)
 
 ---
 
