@@ -330,8 +330,9 @@ For a pleural effusion case:
 
 
 ### **Acknowledgments**
-Label Studio for annotation platform
-Yamah Princewill B.Rad.
+
+I am grateful to Dr. Yamah Princewill B.Rad., Consultant Radiologist, for offering radiology guidance and performing an independent review of selected annotations. His cross-checking of findings supported clinical correctness, particularly in anatomical localization and interpretation of radiographic signs.
+
 
 
 
